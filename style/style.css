@@ -201,3 +201,32 @@ input[type=radio]{
 font-family: 'PT Sans Caption', sans-serif;
 
 */
+.modal{
+	position: fixed;
+	background: rgba(78, 106, 255, 0.6);
+	border: 1px solid #fff;
+	padding: 10px;
+	opacity: 1;
+	
+	width: 400px;
+	height: 200px;
+
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	
+}
+
+
+.modal-back{
+
+	background: rgba(0, 0, 0, .6);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+}
